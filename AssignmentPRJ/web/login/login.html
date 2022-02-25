@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <!--<link href="../WEB-INF/homepage/bootstrap.min.css" rel="stylesheet">-->
+    </head>
+    <body class="container-fluid">
+
+    <div class="login">
+        <img class="logo col-md-6" src="../lucasta.png" alt="">
+
+        <form class="khung col-md-6" name="input" action="LoginServlet" method="post">
+            <h1 class="word1">Login Form</h1>
+            <div>
+                <i class="ti-user"></i>
+                <input class="hopthoai" type="text" name="user" placeholder="Username" />
+            </div>
+            <div>
+                <i class="ti-key"></i>
+                <input class="hopthoai" type="password" name="pass" placeholder="password" />
+            </div>
+            <a class="forgotpass" href="">Forgot password</a>
+            
+            <div >
+                <input class="submit" type="submit" value="Create" />
+                <input class="submit" type="submit" value="Login" />
+            </div>
+        </form>
+
+
+    </div>
+
+</body>
+</html>
